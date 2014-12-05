@@ -1,0 +1,9 @@
+These scripts will schedule image capture using cron.
+Specify files, directories and times/dates in schedule.sh!
+
+Executing ./schedule.sh will set up a .crontab file.
+This file will be loaded into cron to start scheduled jobs.
+
+Questions? Ask me: hans.niederhausen@stonybrook.edu
+
+

@@ -1,1 +1,2 @@
-*/10 * * * * /Users/Hans/icecube/stuff/2014/polecam/script.sh
+# do not change.
+# settings will be written by schedule.sh
