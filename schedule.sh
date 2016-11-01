@@ -32,9 +32,9 @@ if [ ! -d "$spadedir" ]; then
    exit 1
 fi
 
-echo "MAILTO=\"\"" > .contab
+echo "MAILTO=\"\"" > .crontab
 echo "*/$freq * * * * /bin/sh $PWD/capture_frame.sh $basedir > /dev/null 2>&1" >> .crontab
-echo "MAILTO=\"\"" >> .contab
+echo "MAILTO=\"\"" >> .crontab
 echo "$min $hour * * * /bin/sh $PWD/transfer.sh $basedir $spadedir $frac /dev/null 2>&1" >> .crontab
 crontab .crontab
 
